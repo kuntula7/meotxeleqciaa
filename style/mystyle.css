@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+div{
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.color1{
+    background-color: #FF00F4;
+    clear: left;
+}
+
+.color2{
+    background-color:#E8FF00 ;
+}
+.color3{
+    background-color: #0015FF;
+}
+p{
+    clear: left;
+    width: 100%;
+    padding: 20px;
+    background-color: #E8FF00;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+p::first-line{
+    color: #FF00F4;
+}
+p::first-letter{
+    font-size: 24px;
+    color: #FFCD00;
+}
+p::selection{
+    color: white;
+    background-color: black;
+
+}
+h2::after{
+    content: url(../img/smiling-face\ \(1\).png);
+}
+nav{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #E8FF00;
+    width: 1000px;
+    height: 150px;   
+}
+ul li a{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+ul li{
+    float: left;
+}
+article{
+    width: 50%;
+    height: 200px;
+    background-color:#FFCD00 ;
+    border: 1px solid burlywood;
+    margin: 20px auto;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.image img{
+    width: 100%;
+}
+a:active{
+    color: #532c2c;
+}
+a:hover{
+    color: white;
+}
+ul > :first-child{
+    background-color: black;
+}
+header{
+    background-color: #532c2c;
+    padding: 10px;
+}
